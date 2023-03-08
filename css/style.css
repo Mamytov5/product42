@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    margin: 0 10px 0 0;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+}
+
+.header_nav a {
+    font-size: 16px;
+    margin: 0 27px 0 0;
+    color: #22343D;
+}
+
+.header_nav a:hover {
+    color: black;
+}
+
+.header-left {
+    font-size: 16px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    color: #173A56;
+    margin: 0 10px 0 0;
+}
+
+.header-right {
+    font-size: 14px;
+    background: #02897A;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    height: 40px;
+    width: 100px;
+    margin: 0 5px 0 0;
+}
+
+.header-btns {
+    display: flex;
+    align-items: center;
+}
+
+#header {
+    margin: 10px 0 0 0;
+}
+
+.hero-title {
+    width: 518px;
+    font-size: 40px;
+    line-height: 60px;
+    color: #22343D;
+
+}
+
+.hero-subtitle {
+    width: 458px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #22343D;
+    margin: 15px 0;
+}
+
+.hero-left {
+    width: 130px;
+    height: 45px;
+    font-size: 16px;
+    border: none;
+    color: #FFFFFF;
+    background: #02897A;
+    border-radius: 4px;
+    margin: 0 10px 0 0;
+}
+
+.hero-right {
+    font-size: 16px;
+    text-decoration-line: underline;
+    border: none;
+    background: none;
+    color: #02897A;
+
+}
+
+
+.hero-right a {
+    color: #02897A;
+    margin: 0 6px 0 0;
+}
+#hero{
+    margin: 50px 0 0 0;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-was{
+    width: 539px;
+    font-size: 32px;
+    line-height: 48px;
+    color: #22343D;
+}
+.product-block{
+    background: #02897A;
+    border-radius: 19px;
+    width: 50px;
+    height: 50px;
+}
+.product-block img{
+    padding: 15px 0 0 19px;
+}
+.product-title{
+    font-size: 22px;
+    color: #22343D;
+    margin: 10px 0;
+}
+.product-subtitle{
+    width: 240px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+
+}
+.product-blocks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 0 0;
+    flex-wrap: wrap;
+}
+.product-btn{
+    background: #02897A;
+    border-radius: 4px;
+    width: 110px;
+    height: 40px;
+    border: none;
+    color: #FFFFFF;
+}
+.product-btns{
+    margin: 50px 0 0 0;
+}
+#product{
+    background: url("../images/Bg.png") no-repeat center/cover;
+    min-height: 80vh;
+}
+
+.about-title{
+    font-size: 16px;
+    color: #22343D;
+    margin: 0 0 10px 0;
+}
+.about-subtitle{
+    width: 486px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    margin: 15px 0;
+}
+#about{
+    margin: 60px 0 0 0;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.support-text h3{
+    font-size: 16px;
+    color: #22343D;
+}
+.support-text h1{
+    font-size: 32px;
+    color: #22343D;
+    margin: 10px 0;
+}
+.support-title{
+    width: 486px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+}
+.support-block{
+    background: #FF9900;
+    border-radius: 15.8542px;
+    width: 40px;
+    height: 40px;
+    margin: 0 15px 0 0;
+
+}
+.support-block img{
+    padding: 12px 0 0 11px;
+}
+.support-never{
+    font-size: 14px;
+    line-height: 24px;
+    width: 365px;
+    color: #22343D;
+}
+.support-texts{
+    display: flex;
+    align-items: center;
+    margin: 30px 0 0 0;
+}
+.support{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#support{
+    margin: 70px 0 0 0;
+}
+.collaborative-text p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    width: 486px;
+    margin: 10px 0;
+}
+.collaborative-text h4{
+    font-size: 16px;
+    color: #22343D;
+}.collaborative{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ #collaborative{
+     margin: 60px 0 0 0;
+ }
+.hamburger-menu{
+    display: none;
+}
